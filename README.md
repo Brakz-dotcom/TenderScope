@@ -1,5 +1,4 @@
-# 📄 Smart Document & Contract Compliance Auditor
-
+# 📄 TenderScope: Smart Contract & Tender Compliance Auditor
 An end-to-end Retrieval-Augmented Generation (RAG) system built to audit commercial leases, agreements, and tender documents with deterministic source-grounded citations.
 
 ## ⚡ Features
@@ -20,8 +19,8 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built to audit commerc
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Brakz-dotcom/document-contract-auditor.git](https://github.com/Brakz-dotcom/document-contract-auditor.git)
-   cd document-contract-auditor
+   git clone https://github.com/Brakz-dotcom/TenderScope.git
+cd TenderScope
    ```
 
 2. **Set up a virtual environment:**
