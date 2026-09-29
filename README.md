@@ -19,8 +19,8 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built to audit commerc
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Brakz-dotcom/TenderScope.git
-cd TenderScope
+   git clone [https://github.com/Brakz-dotcom/TenderScope.git](https://github.com/Brakz-dotcom/TenderScope.git)
+   cd TenderScope
    ```
 
 2. **Set up a virtual environment:**
@@ -44,4 +44,3 @@ cd TenderScope
    ```bash
    streamlit run app.py
    ```
-
