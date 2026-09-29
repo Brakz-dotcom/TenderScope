@@ -18,23 +18,21 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built to audit commerc
 
 ## 🚀 Getting Started
 
-## 🚀 Getting Started
-
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Brakz-dotcom/document-contract-auditor.git
+   git clone [https://github.com/Brakz-dotcom/document-contract-auditor.git](https://github.com/Brakz-dotcom/document-contract-auditor.git)
    cd document-contract-auditor
    ```
 
 2. **Set up a virtual environment:**
-   ```bash
+   ```powershell
    python -m venv venv
    venv\Scripts\activate
    ```
 
 3. **Install dependencies:**
    ```bash
-   pip install streamlit pymupdf langchain langchain-community langchain-groq chromadb sentence-transformers python-dotenv
+   pip install -r requirements.txt
    ```
 
 4. **Configure environment variables:**  
@@ -47,3 +45,4 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built to audit commerc
    ```bash
    streamlit run app.py
    ```
+
