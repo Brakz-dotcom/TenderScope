@@ -18,30 +18,32 @@ An end-to-end Retrieval-Augmented Generation (RAG) system built to audit commerc
 
 ## 🚀 Getting Started
 
+## 🚀 Getting Started
+
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Brakz-dotcom/document-contract-auditor.git
    cd document-contract-auditor
-   \`\`\`
+   ```
 
 2. **Set up a virtual environment:**
-   \`\`\`bash
+   ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   \`\`\`
+   venv\Scripts\activate
+   ```
 
 3. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    pip install streamlit pymupdf langchain langchain-community langchain-groq chromadb sentence-transformers python-dotenv
-   \`\`\`
+   ```
 
-4. **Configure environment variables:**
+4. **Configure environment variables:**  
    Create a `.env` file in the root directory:
-   \`\`\`env
+   ```env
    GROQ_API_KEY=your_groq_api_key_here
-   \`\`\`
+   ```
 
 5. **Run the auditor:**
-   \`\`\`bash
+   ```bash
    streamlit run app.py
-   \`\`\`
+   ```
