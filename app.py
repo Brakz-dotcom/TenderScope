@@ -14,8 +14,8 @@ from langchain_core.runnables import RunnablePassthrough
 load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 
-st.set_page_config(page_title="Document & Contract Auditor", layout="wide")
-st.title("📄 Smart Document & Contract Auditor")
+st.set_page_config(page_title="TenderScope - Contract & Tender Auditor", layout="wide")
+st.title("📄 TenderScope: Smart Contract & Tender Compliance Auditor")
 st.caption("Multimodal RAG with Grounded Source Citations")
 
 # Initialize session state keys
